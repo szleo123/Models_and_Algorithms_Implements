@@ -57,5 +57,5 @@ if __name__ == "__main__":
     y_test = y[-3:]
     lda = LDA()
     lda.fit(X_train, y_train)
-    print(lda.predict(X_test))
-    print(y_test)
+    print(lda.predict(X_test)) # predicted class
+    print(y_test) # real class
